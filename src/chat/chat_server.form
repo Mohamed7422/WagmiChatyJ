@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="chat.chat_server">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="15d09" class="javax.swing.JTextArea" binding="msg_area">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <columns value="30"/>
+          <rows value="10"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="a7f2" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Last"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f0411" class="javax.swing.JTextField" binding="msg_text">
+            <constraints border-constraint="Center"/>
+            <properties/>
+          </component>
+          <component id="b4850" class="javax.swing.JButton" binding="msg_send">
+            <constraints border-constraint="East"/>
+            <properties>
+              <text value="Send"/>
+              <verticalAlignment value="3"/>
+              <verticalTextPosition value="3"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="d2f5e" class="javax.swing.JLabel" binding="server">
+        <constraints border-constraint="North"/>
+        <properties>
+          <text value="Server"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
